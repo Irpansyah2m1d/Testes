@@ -15,7 +15,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-       User::factory(5)->create();
        
         // User::create([
         //     "name" => "Irpansyah",
@@ -60,6 +59,7 @@ class DatabaseSeeder extends Seeder
         //     "excerp" => "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quia maiores unde,",
         //     "body" => "<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quia maiores unde, non accusantium blanditiis placeat natus illo velit numquam recusandae quam.</p> <p> Cumque eos dolores ipsa perferendis repudiandae a? Praesentium soluta assumenda fuga minima quisquam saepe, architecto iusto fugiat minus, laboriosam quibusdam, quas hic voluptatibus facere dicta deserunt ullam explicabo dolor temporibus commodi! Officia sequi quibusdam sed iure reprehenderit harum natus, facere quae. </p> <p> quisquam iste repudiandae eligendi eius, laborum laudantium soluta dolor! Rerum ex doloremque recusandae, sequi, magnam harum possimus exercitationem maxime ad dicta natus officiis hic blanditiis reiciendis expedita similique! Accusantium quaerat consequatur quis molestias est corrupti iusto? Rem repellendus, ipsa ea nihil neque libero omnis velit iste voluptas.</p>"
         // ]);
+       User::factory(5)->create();
         Category::create([
             "name" => "Web Programming",
             "slug" => "web-programming"
